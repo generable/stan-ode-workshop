@@ -7,4 +7,5 @@ sho_fit_multiple
 sho_sim_with_noise_multiple
 sho_fit_multiple_parallel
 sho_fit_multiple_parallel_start
+sho_sim_with_noise
 output.csv

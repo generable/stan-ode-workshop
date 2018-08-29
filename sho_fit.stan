@@ -24,8 +24,8 @@ transformed parameters {
   real y[T, 2] = integrate_ode_bdf(sho, y0, 0.0, ts, theta, x_r, x_i);
 }
 model {
-  sigma ~ normal(0.5, 0.1);
-  theta ~ normal(0, 0.5);
+  sigma ~ normal(0.1, 0.1);
+  theta ~ normal(0.15, 0.1);
   y0 ~ normal({1.0, 0.0}, 0.1);
 
   y_hat[, 1] ~ normal(y[, 1],  sigma);

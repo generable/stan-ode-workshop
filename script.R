@@ -39,7 +39,7 @@ data$ts <- 1:20
 data$t0 <- 0
 data$y0 <- c(1, 0)
 data$y_hat <- y_hat[1,,]
-data$theta <- 0.15
+data$theta <- -0.15
 
 stan_rdump(ls(data), "sho.data.R", envir = list2env(data))
 

@@ -28,7 +28,7 @@ transformed parameters {
   }
 }
 model {
-  sigma ~ normal(0.5, 0.1);
+  sigma ~ normal(0.1, 0.1);
   for (n in 1:N) {
     theta[n, 1] ~ normal(0.15, 0.1);
     y0[n] ~ normal({1.0, 0.0}, 0.1);

@@ -8,7 +8,7 @@ functions {
 transformed data {
   real ts[20] = { 1.0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 };
   real y0[2] = { 1.0, 0.0 };
-  real theta[1] = { -0.15 };
+  real theta[1] = { 0.15 };
   real x_r[0];
   int x_i[0];
 }
