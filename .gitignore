@@ -1,3 +1,10 @@
 *~
+*.exe
+*.hpp
 sho_sim
-sho_sim.exe
+sho_fit
+sho_fit_multiple
+sho_sim_with_noise_multiple
+sho_fit_multiple_parallel
+sho_fit_multiple_parallel_start
+output.csv
